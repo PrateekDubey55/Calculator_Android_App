@@ -1,0 +1,272 @@
+.Sub1 {
+    margin-right: 20px;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: medium;
+    background-color: lightgray;
+    border: solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    font-family:Cambria;
+    font-weight:bold;
+}
+.Sub1:hover , .Sub2:hover,  .Sub3:hover , .Sub4:hover , .Sub5:hover, .Sub6:hover , .NewData1:hover, .View1:hover{
+    background: gray;
+    color: white;
+}
+.Sub2 {
+    margin-top: 50px;
+    font-family: Cambria;
+    font-weight:bold;
+    padding: 5px;
+    font-size: medium;
+    border: solid gray;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+.Sub3{
+    margin-left: 420px;
+    margin-top: -31px;
+    font-family: Cambria;
+    font-weight:bold;
+    padding: 5px;
+    font-size: medium;
+    border: solid gray;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+.Sub5{
+    margin-left: 450px;
+    margin-top: -31px;
+    font-family: Cambria;
+    font-weight:bold;
+    padding: 5px;
+    font-size: medium;
+    border: solid gray;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+.Sub6{
+    margin-left: 500px;
+    margin-top: -40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    padding: 5px;
+    font-size: medium;
+    border: solid gray;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+.Sub4{
+    margin-left: 500px;
+    margin-top: -37px;
+    font-family: Cambria;
+    font-weight:bold;
+    padding: 5px;
+    font-size: medium;
+    border: solid gray;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+.Div1 {
+    background-color: white;
+    border: solid gray;
+    width: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:60px;
+    padding-bottom: 100px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.Lab1
+{
+    font-size:x-large;
+    font-weight:bold;
+    font-family:Cambria;
+    color: darkblue;
+}
+.Img1 
+{
+    height:150px;
+    width:150px;
+    margin-top:20px;
+    
+}
+.Form2{
+    background-color: white;
+    border:solid gray;
+    width: 500px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 320px;
+}
+.Div2{
+    background-color: white;
+    border:solid gray;
+    width: 500px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 320px;
+}
+.Img2 {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.Img3 {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.Headings {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 10px;
+}
+.lbl1 , .lbl2 , .lbl3 , .lbl4 , .lbl5 , .lbl6 , .lbl7 , .lbl8 , .lbl9{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+.Note, .Note1, .Note2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+.day{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: darkblue;
+}
+.sub{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.roomno{
+    margin-left: 1px;
+    margin-top: 10px;
+}
+.cname{
+    margin-left: 28px;
+    margin-top: 10px;
+}
+.fname{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: darkblue;
+    font-weight: bold;
+}
+.SnoLab{
+    margin-left: 5px;
+    margin-top: 10px;
+    color: darkblue;
+    font-weight: bold;
+}
+.slot{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: darkblue;
+}
+.M1{
+    margin-bottom: 30px;
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: bold;   
+}
+.NewData1 {
+    margin-top: 50px;
+    font-family: Cambria;
+    font-weight:bold;
+    padding: 5px;
+    font-size: large;
+    border: solid gray;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+.View1 {
+    margin-top: 50px;
+    font-family: Cambria;
+    font-weight:bold;
+    padding: 5px;
+    font-size: large;
+    border: solid gray;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+.bottom1{
+    background-color: brown;
+    position: absolute;
+    width: 96%;
+    margin-left: 0px;
+    padding:20px;
+}
+.bottom2{
+    background-color: brown;
+    position: absolute;
+    width: 15%;
+    padding:20px;
+    margin-top: -95px;
+    margin-left: 1050px;
+    margin-right: 20px;
+}
+.lblbtm{
+    color:white;
+    font-size: large;
+    font-weight: bold; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lblbtm1{
+    color: silver;
+    font-size: medium;
+    font-weight: bold; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lblbtm2{
+    color:white;
+    font-size: large;
+    font-weight: bold; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.lblbtm3{
+    color: silver;
+    font-size: medium;
+    font-weight: bold; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}

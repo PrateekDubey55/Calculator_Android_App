@@ -1,0 +1,74 @@
+<html>
+<head>
+  <title>View Section</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <meta charset ="UTF-8">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCEIrTuc939KadZ4gntXDHLI0xQ9njy8uM",
+    authDomain: "facultytimeportal.firebaseapp.com",
+    databaseURL: "https://facultytimeportal.firebaseio.com",
+    projectId: "facultytimeportal",
+    storageBucket: "",
+    messagingSenderId: "296088539634",
+    appId: "1:296088539634:web:3a3b4ed080ec5492"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="View.js"></script>
+</head>  
+<body>
+        <div id="D2" class="Div2">
+            <marquee id="M1" class="M1" behavior="scroll" direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+                Welcome To SUAS Faculty Time Slot Portal!
+            </marquee>
+            <center>
+            <label id="L1" name="Label1" class="Lab1">View Section</label><br />
+          </center>
+          <input class="Sub5" type="submit" id="S5" name="Submit5" value="&#9204" title="Click To Visit Home Page"/>
+          <input class="Sub4" type="submit" id="S4" name="Submit4" value="&#11118" title="Click To Reload"/>
+          <center>
+            <img class="Img3" src="Logo_SUAS.jpg" title="Click here to see logo in original size" /><br />
+          </center>
+            <label id="Headings" class="Headings">Faculty Name:</label>
+                <input type="text" id="fname" class="fname"><br>
+            
+                <br>
+                <label id="Headings" class="Headings">Select The Day To Enter Time Slots*</label><br>
+                    <label id="Note" class="Note">*To Change Day Reload The Page</label><br>
+                    <input type="radio" name="days" value="Monday" id="r1" class="r1"><label class="day" for="r1">Monday</label><br>
+                    <input type="radio" name="days" value="Tuesday" id="r2" class="r2"><label class="day" for="r2">Tuesday</label><br>
+                    <input type="radio" name="days" value="Wednesday" id="r3" class="r3"><label class="day" for="r3">Wednesday</label><br>
+                    <input type="radio" name="days" value="Thursday" id="r4" class="r4"><label class="day" for="r4">Thursday</label><br>
+                    <input type="radio" name="days" value="Friday" id="r5" class="r5"><label class="day" for="r5">Friday</label><br>
+                    <input type="radio" name="days" value="Saturday" id="r6" class="r6"><label class="day" for="r6">Saturday</label><br>
+            
+            <center>
+            <button  id="V1" class="View1">Submit</button>
+            <br><br>
+            <label id="Note1" class="Note1"></label><br>
+            <label id="Note2" class="Note2"></label>
+            </center>
+            
+        </div>
+        
+        <div id="bottom1" class="bottom1">
+          <label class="lblbtm">Address</label><br>
+            <label class="lblbtm1">Symbiosis University of Applied Sciences,</label><br>
+            <label class="lblbtm1">Bada Bangadda, Super Corridor,</label><br>
+            <label class="lblbtm1">Near Airport, Indore-453112</label>
+            <div class="bottom2">
+              <label class="lblbtm2">Portal Developed By</label><br>
+              <label class="lblbtm3">Prateek Dubey</label>
+              </div>
+      </div>
+</body>
+</html>
